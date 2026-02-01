@@ -15,7 +15,7 @@ export const App = () => {
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
 
   const handleClickSubmit = () => {
-    window.gtag("event", "7097_get_sub", {
+    window.gtag("event", "7097_card_order_click", {
       variant_name: "7097_6",
     });
 
