@@ -42,7 +42,12 @@ export const ThxLayout = () => {
         </Typography.Text>
       </div>
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" href="alfabank://" onClick={submit}>
+        <ButtonMobile
+          block
+          view="primary"
+          href="https://online.alfabank.ru/debit_card_showcase?flowType=KIDS"
+          onClick={submit}
+        >
           Спасибо, понятно!
         </ButtonMobile>
       </div>
